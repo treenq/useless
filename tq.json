@@ -1,0 +1,11 @@
+{
+  "key": "useless",
+  "region": "fra1",
+  "service": {
+    "dockerfilePath": "Dockerfile",
+    "sizeSlug":       "basic-xxs",
+    "name":           "treenq-e2e-sample",
+    "httpPort":       8000,
+    "replicas":       1
+  }
+}

@@ -3,7 +3,7 @@
   "region": "fra1",
   "service": {
     "dockerfilePath": "Dockerfile",
-    "sizeSlug":       "basic-xxs",
+    "sizeSlug":       "250-512-1",
     "name":           "treenq-e2e-sample",
     "httpPort":       8000,
     "replicas":       1

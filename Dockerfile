@@ -1,4 +1,4 @@
-FROM nginx:alpine
-COPY nginx.conf /etc/nginx/nginx.conf
-RUN echo "Hello, main2" > /usr/share/nginx/html/index.html
-EXPOSE 8000
+FROM busybox
+WORKDIR /www
+RUN echo "Hello, main2" > index.html
+CMD ["httpd", "-f", "-p", "8000"]
